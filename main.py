@@ -45,7 +45,7 @@ search={
 }
 
 
-def rada():
+def automatedTask():
     speak("Opening Microsoft Edge!")
     bing = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
     os.startfile(bing)
@@ -356,7 +356,7 @@ if __name__ == "__main__":
 
 
         elif 'microsoft' in query:
-            rada()
+            automatedTask()
 
 
 
